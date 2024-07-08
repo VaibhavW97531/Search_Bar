@@ -1,0 +1,157 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 60vh;
+    background-color: #4494b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar{
+    width: 300px;
+    background-color: #fff;
+    border-radius: 100vh;
+    padding: 4px;
+}
+
+.bar form .input_bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.bar form .input_bar input{
+    width: 100%;
+    font-size: 10px;
+    padding: 7px 10px;
+    border-radius: 100vh;
+    border: none;
+    outline: none;
+}
+.bar form .selection{
+    width: 45vh;
+    background-color: #7d2fbd;
+    padding: 7px 10px;
+    border-radius: 100vh;
+    cursor: pointer;
+    display: flex;
+    white-space: nowrap ;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar form .selection p{
+    font-size: 10px;
+    color: #fff;
+}
+
+.bar form .categories{
+    position: absolute;
+    top: 120%;
+    left: 0px;
+    background-color: #7d2fbd;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 0px;
+    opacity: 0;
+    pointer-events: none;
+    margin-top: 1px;
+    border-radius: 2vh;
+
+}
+.bar form .categories p{
+    margin: 5px 0px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.bar form .categories p:hover{
+    background-color: #9563bf;
+}
+.bar form .active{
+    font-size: 10px;
+    opacity: 1;
+    pointer-events: fill;
+}
+
+::placeholder {
+    color: #7d2fbd;
+    opacity: 1;
+  }
+
+
+.btn{
+    border: none;
+    background-color: #fff;
+    color: #7d2fbd;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+@media only screen and (min-width: 768px){
+
+    body {
+        height: 80vh;
+    }
+    
+    .bar{
+        width: 600px;
+    }
+    .bar form .input_bar input{
+        font-size: 20px;
+        padding: 7px 15px;
+    }
+    .bar form .selection{
+        width: 50vh;
+        padding: 7px 15px;
+    }
+    .bar form .selection p{
+        font-size: 20px;
+    }
+    .bar form .active{
+        font-size: 20px;
+    }
+    
+    .btn{
+        font-size: 20px;
+    }
+    
+}
+
+@media only screen and (min-width: 1000px){
+
+    body {
+        height: 80vh;
+    }
+    
+    .bar{
+        width: 750px;
+    }
+    .bar form .input_bar input{
+        font-size: 20px;
+        padding: 5px 15px;
+    }
+    .bar form .selection{
+        width: 55vh;
+        padding: 10px 20px;
+    }
+    .bar form .selection p{
+        font-size: 20px;
+    }
+    .bar form .active{
+        font-size: 20px;
+    }
+    
+    .btn{
+        font-size: 20px;
+    }
+    
+}
