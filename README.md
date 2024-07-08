@@ -1,0 +1,1 @@
+This project is a simple implementation of a search bar with a dropdown menu that allows users to select a specific search field. This can be useful for applications where users need to search within different categories or types of data.
